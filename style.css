@@ -67,13 +67,15 @@
 
 .texto2{
     display: grid;
+    grid-template-rows: 1fr;
     background-color: rgb(84, 226, 226);
     align-items: center;
-    justify-content: center;
 }
 
 .descricao{
     background-color: black;
+    height: 100px;
+    width: auto;
 }
 
 .competencia{
